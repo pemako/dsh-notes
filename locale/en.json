@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Sticky notes",
+    "description": "Adds a Notes entry at the sidebar foot. Open it to write Markdown notes, resize cards horizontally and vertically, mark urgency with a color, archive a note, and browse notes grouped by date. Notes are stored in this browser."
+  }
+}
