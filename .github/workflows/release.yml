@@ -56,4 +56,5 @@ jobs:
         run: npm pack --dry-run
 
       - name: Publish to npm
-        run: npm publish --registry https://registry.npmjs.org/ --access public --provenance ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '--dry-run' || '' }}
+        if: github.event_name == 'release' || inputs.dry_run == false
+        run: npm publish --registry https://registry.npmjs.org/ --access public --provenance
