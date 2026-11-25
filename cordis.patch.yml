@@ -1,4 +1,4 @@
 - insert:
     - id: dsh-notes
-      name: '@local/dsh-notes'
+      name: '@pemako/dsh-notes'
       config: {}

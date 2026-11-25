@@ -3,6 +3,16 @@
 A DSH web plugin that adds a **Notes** entry at the sidebar foot and opens a
 floating notes board.
 
+## Install
+
+Install it from npm in **Plugins → Add plugin**:
+
+```
+@pemako/dsh-notes
+```
+
+Pin a version instead when you want a fixed one, e.g. `@pemako/dsh-notes@0.1.0`.
+
 - **Markdown:** headings, bold, italic, strikethrough, inline code, fenced code,
   links, lists, task lists, blockquotes, and horizontal rules. Raw HTML is
   shown as text, not rendered.

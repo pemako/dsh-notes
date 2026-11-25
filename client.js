@@ -1,5 +1,5 @@
 window.__ModuleLoader__.load({
-  id: '@local/dsh-notes',
+  id: '@pemako/dsh-notes',
   factory(require) {
     const React = require('react')
     const ReactDOM = require('react-dom')
@@ -2004,7 +2004,7 @@ div:has(> div[data-slot="sidebar.footer.action"] > .dsh-notes-layer) {
 
       ctx.effect(() => {
         const style = document.createElement('style')
-        style.setAttribute('data-plugin', '@local/dsh-notes')
+        style.setAttribute('data-plugin', '@pemako/dsh-notes')
         style.setAttribute('data-dsh-notes', '')
         style.textContent = CSS
         document.head.append(style)

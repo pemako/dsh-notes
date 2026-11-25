@@ -1,7 +1,6 @@
 {
-  "name": "@local/dsh-notes",
-  "version": "1.0.0",
-  "private": true,
+  "name": "@pemako/dsh-notes",
+  "version": "0.1.0",
   "description": "Sidebar sticky notes with Markdown, resizable cards, urgency colors, and date grouping.",
   "type": "module",
   "exports": {
@@ -19,7 +18,9 @@
     "icon.svg"
   ],
   "dsh": {
-    "bundle": { "patch": "./cordis.patch.yml" },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
     "client": {
       "platform": "web",
       "immediately": true,
@@ -28,5 +29,23 @@
         "@deepseek-ai/dsh-client-locale"
       ]
     }
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "sticky-notes",
+    "markdown"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pemako/dsh-notes.git"
+  },
+  "homepage": "https://github.com/pemako/dsh-notes#readme",
+  "bugs": "https://github.com/pemako/dsh-notes/issues",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
