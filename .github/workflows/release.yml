@@ -33,6 +33,10 @@ jobs:
 
       - name: Check the tag against the package version
         run: |
+          if [ "$GITHUB_REF_TYPE" != "tag" ]; then
+            echo "not a tag ref ($GITHUB_REF_TYPE $GITHUB_REF_NAME); skipping the tag check"
+            exit 0
+          fi
           tag="${GITHUB_REF_NAME#v}"
           version="$(node -p "require('./package.json').version")"
           echo "tag=$tag package=$version"
