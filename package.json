@@ -1,6 +1,6 @@
 {
   "name": "@pemako/dsh-notes",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sidebar sticky notes with Markdown, resizable cards, urgency colors, and date grouping.",
   "type": "module",
   "exports": {
